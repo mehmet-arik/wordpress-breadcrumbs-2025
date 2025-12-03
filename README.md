@@ -22,7 +22,7 @@ Aşağıdaki fonksiyonu functions.php dosyanıza ekleyin:
 
 
 ```
-function custom_breadcrumbs() {
+function memo_breadcrumbs() {
     $separator = ' > ';
     $home = 'Anasayfa';
     echo '<div class="breadcrumbs">';
