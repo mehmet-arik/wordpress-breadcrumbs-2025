@@ -21,7 +21,7 @@ Aşağıdaki fonksiyonu functions.php dosyanıza ekleyin:
 
 
 
-
+```
 function custom_breadcrumbs() {
     $separator = ' > ';
     $home = 'Anasayfa';
@@ -41,7 +41,7 @@ function custom_breadcrumbs() {
     }
     echo '</div>';
 }
-
+```
 
 
 
