@@ -52,8 +52,8 @@ function custom_breadcrumbs() {
 Kullanım
 
 Breadcrumb’ın görünmesini istediğiniz yere aşağıdaki kodu ekleyin:
-
+```
 <?php memo_breadcrumbs(); ?>
-
+```
 
 Bu genellikle header.php içinde başlığın hemen altına konur.
