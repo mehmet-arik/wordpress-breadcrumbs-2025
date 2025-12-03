@@ -1,4 +1,4 @@
-function custom_breadcrumbs() {
+function memo_breadcrumbs() {
     $separator = ' > ';
     $home = 'Anasayfa';
 
