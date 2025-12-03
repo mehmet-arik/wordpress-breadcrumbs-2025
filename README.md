@@ -18,15 +18,14 @@ Kurulum
 
 Aşağıdaki fonksiyonu functions.php dosyanıza ekleyin:
 
+
 function memo_breadcrumbs() {
     $separator = ' > ';
     $home = 'Anasayfa';
     echo '<div class="breadcrumbs">';
-
     if (!is_front_page()) {
         echo '<a href="' . home_url() . '">' . $home . '</a>' . $separator;
     }
-
     if (is_category() || is_single()) {
         the_category(' • ');
         if (is_single()) {
@@ -37,9 +36,9 @@ function memo_breadcrumbs() {
     } elseif (is_search()) {
         echo 'Arama sonuçları: ' . get_search_query();
     }
-
     echo '</div>';
 }
+
 
 Kullanım
 
